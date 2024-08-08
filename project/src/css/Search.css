@@ -1,0 +1,110 @@
+.searchbar {
+    display: flex;
+    align-items: center;
+    background-color: peachpuff;
+    border-radius: 20px; 
+    padding: 3px 10px; 
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-left: 713px;
+    width: 316px;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    padding: 7px;
+    flex-grow: 10;
+    border-radius: 20px;
+    background-color: peachpuff;
+  }
+  
+  .search-input::placeholder {
+    color: gray;
+  }
+  
+  /* a {
+    margin-left: 10px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    color: burlywood;
+  }  */
+
+  
+
+
+
+.search-btn {
+  padding: 10px;
+  font-size: 16px;
+  background-color: peachpuff;
+  color:rgb(118, 71, 30);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: rgb(206, 137, 76);
+}
+
+.search-product-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.search-product-details > div {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* border-radius: 5px; */
+  text-align: center;
+  /* transition: transform 0.2s ease-in-out;    */
+   padding: 5px;
+  text-align: center;
+  border-radius: 8px;
+    box-shadow: 0 0 10px 0.3s ease-in-out;
+
+}
+
+.search-product-details > div:hover {
+  transform: scale(1.05);
+}
+
+.search-h1 {
+  font-size: 15px;
+  margin: 5px 0;
+  color:black ;
+}
+
+.search-h3 {
+  font-size: 20px;
+  color: rgb(98, 64, 21);
+  margin: 5px 0;
+}
+
+.search-img {
+  /* max-width: 30%;
+  height: auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  width: 200px;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+    justify-content: space-between;
+    padding: 40px;
+}
+.search-price{
+  font-size: 20px;
+  color: green;
+}
+/* Add more styling as needed */
+

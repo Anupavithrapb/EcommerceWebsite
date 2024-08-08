@@ -1,0 +1,67 @@
+.Home-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-color: burlywood;
+}
+.Home-card{
+    width: 300px;
+    margin: 20px;
+    padding: 5px;
+    /* border: 5px solid peachpuff; */
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0.3s ease-in-out;
+    
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+.card-image{
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+.card-details{
+    padding: 5px;
+text-align: center;
+}
+.old{
+    text-decoration: line-through;
+}
+.new{
+    color: red;
+}
+
+   /* FontAnimation.css */
+
+@keyframes colorChange {
+    25% {
+      color: rgb(139, 219, 65);
+    }
+    50% {
+      color: rgb(85, 186, 225);
+    }
+    100% {
+      color: rgb(186, 69, 141);
+    }
+  }
+
+  .heading {
+    animation: colorChange 4s infinite; 
+    transform: translateX(50px);
+    font-size: 50px;
+    
+    
+  }
+  
+
+body{
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+    font-family: 'sans-serif';
+}
+
+

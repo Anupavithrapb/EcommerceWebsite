@@ -1,0 +1,305 @@
+
+.admin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+.admin-data {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.admin-data img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.admin-buttons {
+  margin-top: 32px;
+  
+ 
+}
+
+.admin-remove-btn {
+  background-color: #ff5c5c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.admin-remove-btn:hover {
+  background-color: #e00000;
+}
+
+.admin-edit-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.admin-edit-btn:hover {
+  background-color: #45a049;
+}
+
+.edit-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.edit-modal label {
+  display: block;
+  margin: 10px 0;
+}
+
+.edit-modal input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.edit-modal button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.edit-modal button:hover {
+  background-color: #45a049;
+}
+
+.edit-modal button:last-child {
+  background-color: #ff5c5c;
+  margin-right: 0;
+}
+
+.edit-modal button:last-child:hover {
+  background-color: #e00000;
+}
+
+  
+
+.admin-container {
+  /* max-width: 800px; */
+  margin: auto;
+  padding: 20px;
+}
+
+.admin-header {
+  color: #2c3e50;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* .admin-add-btn {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.admin-add-btn:hover {
+  background-color: #2980b9;
+} */
+.add-modal {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.add-modal h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.add-modal label {
+  display: block;
+  margin-top: 10px;
+}
+
+.add-modal input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.add-modal button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.add-modal button.admin-cancel {
+  background-color: #f44336;
+}
+
+/* You may want to adjust the colors and styles based on your design preferences */
+
+
+
+.add-modal, .edit-modal {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 500px;
+  margin-left: 36px;
+  margin-top: 20px;
+}
+
+.add-modal h2, .edit-modal h2 {
+  color: #2c3e50;
+}
+
+.add-modal label, .edit-modal label {
+  display: block;
+  margin-top: 15px;
+  color: #333;
+}
+
+.add-modal input, .edit-modal input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+}
+.admin-add-btn {
+  background-color: #389cdf;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 500px;
+}
+
+.admin-add-btn:hover {
+  background-color: #2980b9;
+}
+.admin-add{
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.admin-add:hover{
+  background-color: #45a049;
+}
+.admin-cancel{
+  background-color:#e00000;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.admin-cancel{
+  background-color: #e00000;
+}
+
+/* .admin-data {
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.admin-data img {
+  max-width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.admin-buttons button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.admin-remove-btn {
+  background-color: #e74c3c;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.admin-remove-btn:hover {
+  background-color: #c0392b;
+}
+
+.admin-label {
+  margin-bottom: 15px;
+}
+
+.adminsave, .admincancel {
+  background-color: #2ecc71;
+  color: #fff;
+  margin: 0 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.adminsave:hover, .admincancel:hover {
+  background-color: #27ae60;
+} */
+
+/* Add more styles as needed */
+

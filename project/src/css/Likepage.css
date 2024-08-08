@@ -1,0 +1,158 @@
+/* .like-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .unlike-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+   
+  } */
+ 
+/* Likepage.css */
+
+/* .likepage { */
+  
+  /* padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  flex-wrap: wrap;
+  
+  
+}
+
+.likepage img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.new {
+  color: green;
+  font-weight: bold;
+}
+
+.old {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.unlike-btn {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+  font-size: 15px;
+}
+
+.unlike-btn:hover {
+  background-color: #c0392b;
+} */
+
+/* Likepage.css */
+
+.likepage {
+ 
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.likepage-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.likepage-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.new {
+  color: #1e7b1e;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.old {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.unlike-btn {
+  background-color: burlywood;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+  .unlike-btn:hover {
+    background-color: burlywood;
+  }
+
+
+  
+  .message-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: peachpuff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .message-box-content {
+    text-align: center;
+  }
+  
+  .message-box-content p {
+    margin-bottom: 15px;
+  }
+  
+  .msg-box-yes,
+  .msg-box-no {
+    background-color: #377bc4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .msg-box-no {
+    background-color: #d93041;
+  }
+  
+

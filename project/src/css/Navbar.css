@@ -1,0 +1,176 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    background-color: rgb(215, 129, 54);
+}
+.nav-logo
+{
+display: flex;
+align-items: center;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding-left: 29px;
+}
+.nav-logo h2{
+    margin-left: 10px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+   gap: 50px;
+   font-size: 30px;
+   font-weight: 400;
+   padding-left: 400px; 
+   list-style: none;
+
+}
+
+.nav-cart{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 50px;
+    font-size: 30px;
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* .nav-like{
+    margin-left : 400px;
+} */
+.nav-cart-count{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 1px;
+    right: 30px;
+    margin-left: 45px;
+    margin-top: 29px;
+}
+.nav-likebtn{
+    
+    border: none; 
+    background-color:rgb(215, 129, 54) ; 
+    cursor: pointer;
+    outline: none;
+    margin-top: 25px;
+    margin-right: -100px;
+    /* margin-left: 213px; */
+    transition: transform 0.3s ease-in-out;
+}
+.nav-likebtn:hover{
+    /* color: white; */
+    background-color:rgb(215, 129, 54) ;
+    transform: scale(1.50);
+}
+
+
+.nav-login {
+    text-align: right; 
+    margin-top: 39px;
+  }
+  
+  .nav-login button {
+    background-color: rgb(152, 86, 29); 
+    color: peachpuff; /* Set the text color for the button */
+    padding: 10px 15px; /* Add some padding to the button for better appearance */
+    font-size: 20px; /* Set the font size for the button text */
+    border: none; /* Remove the button border */
+    cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 20px;
+  margin-left: 20px;
+  }
+  
+  /* Add styles for button hover effect */
+  .nav-login button:hover {
+    background-color:rgb(95, 50, 11); /* Change the background color on hover */
+  }
+
+  .nav-search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-search input {
+    padding: 8px;
+    margin-right: 5px;
+ background-color: peachpuff;
+    /* border-radius: 5px; */
+  }
+  
+  .nav-search button {
+    background-color: peachpuff;
+    color: black;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -5px;
+    margin-bottom: 10px;
+    height: 32px;
+  }
+  
+  
+  .nav-search button:hover {
+    background-color: rgb(95, 50, 11);
+  }
+  
+
+  .nav-search input::placeholder {
+    color:#999;
+  }
+  
+ 
+  @media (max-width: 600px) {
+    .nav-search {
+      flex-direction: column; 
+    }
+  
+    .nav-search input {
+      margin-right: 0; 
+      margin-bottom: 5px; 
+    }
+  }
+
+  
+
+/* .nav-logout {
+ 
+} */
+
+.nav-logout-btn {
+  background-color: rgb(215, 129, 54);
+  color: peachpuff; 
+  padding: 10px 15px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 19px;
+}
+
+.nav-logout-btn:hover {
+  background-color: rgb(215, 129, 54);
+}
+
+
+
+.nav-logout-btn svg {
+
+  fill: peachpuff;
+  width: 30px;
+  height: 30px; 
+}
+
+  
+  

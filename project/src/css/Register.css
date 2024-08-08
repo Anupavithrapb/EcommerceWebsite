@@ -1,0 +1,104 @@
+/* Register.css */
+
+/* Apply styles to the container */
+/* .register {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  } */
+  
+  /* Style the heading */
+  /* .h1-register {
+    text-align: center;
+    color: #333;
+    font-family: sans-serif;
+  }
+  
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .input-register {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  } */
+  
+  /* Style the button */
+  /* .btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 30px;
+
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  } */
+  /* Register.css */
+
+.register {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+
+.h1-register {
+  text-align: center;
+  color: #333;
+}
+
+.input-register {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.reg-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.reg-btn:hover {
+  background-color: #45a049;
+}
+
+  

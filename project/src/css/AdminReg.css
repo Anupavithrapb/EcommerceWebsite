@@ -1,0 +1,40 @@
+/* Add this styling to your existing CSS or create a new CSS file */
+
+.adminreg-h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .adminreg-user,
+  .adminreg-pass {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .adminreg-btn {
+    width: 320px;
+    padding: 12px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .adminreg-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Optional: Add a container to center the form on the page */
+  .adminreg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  

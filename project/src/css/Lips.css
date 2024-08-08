@@ -1,0 +1,61 @@
+.Home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .Home-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .card-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .card-details {
+    margin-top: 10px;
+  }
+  
+  .new {
+    color: green;
+  }
+  
+  .old {
+    text-decoration: line-through;
+    color: red;
+  }
+  
+  .add-cart,
+  .buynow {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    
+  }
+  
+  .add-cart:hover,
+  .buynow:hover {
+    background-color: #45a049;
+  }
+ 
+  .likebtn{
+margin-right: 30px;
+background-color: burlywood;
+border: none;
+width: 30px;
+font-size: 24px;
+  }
+  .likebtn:hover{
+    background-color: burlywood;
+  }
+  

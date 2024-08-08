@@ -1,0 +1,124 @@
+/* Signup.css */
+
+/* Apply styles to the container */
+/* .login {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .h1-login {
+    text-align: center;
+    color: #333;
+    font-family:sans-serif;
+  } */
+  
+  /* Style the form labels and input fields */
+  /* label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px; */
+  /* } */
+  
+  /* Style the button */
+  /* .btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  } */
+
+  /* Login.css */
+
+.login {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+
+.h1-login {
+  text-align: center;
+  color: #333;
+}
+
+.login-input {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  height: 50px;
+}
+
+.login-btn:hover {
+  background-color: #2980b9;
+}
+
+.log-reg {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+.log-h3 {
+  font-size: 20px; 
+  color: #1e1d1d; 
+  
+}
+
+.log-h3 a {
+  color: #3384b9; 
+  text-decoration: none; 
+  font-weight: bold; 
+}
+
+.log-h3 a:hover {
+  text-decoration: underline; 
+}
+
+
+  
